@@ -1,0 +1,138 @@
+.page1 {
+    display: flex;
+}
+
+.conteudo {
+    width: 85%;
+    margin-right: 40px;
+}
+
+.conteudo img {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 4.2rem;
+    padding-top: 35px;
+    padding-right: 40px;
+    font-weight: 900;
+}
+
+.title section {
+    padding-top: 25px;
+    line-height: 2.0rem;
+    width: 100%;
+}
+
+.title p {
+    font-size: 1.2rem;
+    color: hsl(236, 13%, 42%);
+}
+
+.title button {
+    margin-top: 30px;
+    padding: 20px 70px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    outline: none;
+    border: none;
+}
+
+.title button:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+.new {
+    width: 35%;
+    padding: 20px 35px;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+
+.new h1 {
+    font-size: 3.5rem;
+    color: hsl(35, 77%, 62%);
+}
+
+.new h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.new h3>a {
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+}
+
+.new h3>a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.new p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 30px;
+}
+
+.new hr {
+    height: 1px;
+    background-color: hsl(233, 8%, 79%);
+    border: none;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1340px) {
+    .page1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .new {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .conteudo {
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .title h1 {
+        margin: 0px;
+        font-size: 3.5rem;
+        padding-right: 0px;
+        font-weight: 900;
+    }
+
+    .title p {
+        font-size: 1.1rem;
+
+    }
+}
